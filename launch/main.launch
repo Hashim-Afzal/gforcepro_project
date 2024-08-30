@@ -1,0 +1,6 @@
+<launch>
+
+  <!-- <node name="sample" pkg="gforcepro_project" type="sample.py" output="screen" launch-prefix="sudo"/> -->
+  <node name="gforce_pub" pkg="gforcepro_project" type="gforce_pub.py" output="screen" launch-prefix="sudo"/>
+
+</launch>

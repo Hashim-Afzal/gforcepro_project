@@ -1,4 +1,4 @@
-#!/home/hit605/.pyenv/versions/myo_grasp/bin/python
+#!/usr/bin/env python2
 from gforce import GForceProfile, NotifDataType, DataNotifFlags, NotifDataLength
 import time
 import numpy as np

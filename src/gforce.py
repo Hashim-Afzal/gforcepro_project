@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 # -*- coding: utf-8 -*- 
 from bluepy import btle
 from bluepy.btle import DefaultDelegate,Scanner,Peripheral
@@ -8,7 +8,7 @@ import struct
 from enum import Enum
 import threading
 import time
-import queue
+import Queue as queue
 
 GF_RET_CODE = Enum('GF_RET_CODE',
 (
